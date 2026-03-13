@@ -44,8 +44,8 @@ df = df.toDF(*[col.lower().strip().replace(" ", "_") for col in df.columns])
 # ── Step 3: Fix date format ────────────────────────────────────────────────
 logger.info("Fixing date formats...")
 df = df.withColumn(
-    "transaction_date",
-    F.to_date(F.col("transaction_date"), "yyyy-MM-dd")
+    "date",
+    F.to_date(F.col("date"), "yyyy-MM-dd")
 )
 
 # ── Step 4: Fix data types ─────────────────────────────────────────────────
@@ -58,7 +58,7 @@ df = df.withColumn("total_amount",F.col("total_amount").cast(DoubleType()))
 logger.info("Removing rows with missing critical values...")
 critical_columns = [
     "transaction_id",
-    "transaction_date",
+    "date",
     "shop_id",
     "product_name",
     "unit_price",
@@ -79,27 +79,27 @@ logger.info("Removing impossible values...")
 df = df.filter(F.col("unit_price")   > 0)
 df = df.filter(F.col("quantity")     > 0)
 df = df.filter(F.col("total_amount") > 0)
-df = df.filter(F.col("transaction_date") >= F.lit("2020-01-01"))
-df = df.filter(F.col("transaction_date") <= F.current_date())
+df = df.filter(F.col("date") >= F.lit("2020-01-01"))
+df = df.filter(F.col("date") <= F.current_date())
 
 # ── Step 8: Add useful new columns ────────────────────────────────────────
 logger.info("Adding enrichment columns...")
 
 df = df.withColumn("day_of_week",
-    F.date_format(F.col("transaction_date"), "EEEE"))
+    F.date_format(F.col("date"), "EEEE"))
 
 df = df.withColumn("month_name",
-    F.date_format(F.col("transaction_date"), "MMMM"))
+    F.date_format(F.col("date"), "MMMM"))
 
 df = df.withColumn("year",
-    F.year(F.col("transaction_date")))
+    F.year(F.col("date")))
 
 df = df.withColumn("month_number",
-    F.month(F.col("transaction_date")))
+    F.month(F.col("date")))
 
 df = df.withColumn("is_weekend",
     F.when(
-        F.dayofweek(F.col("transaction_date")).isin([1, 7]),
+        F.dayofweek(F.col("date")).isin([1, 7]),
         True
     ).otherwise(False))
 
