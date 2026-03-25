@@ -1,0 +1,22 @@
+version: 2
+
+sources:
+  - name: raw
+    database: dataiq360_db
+    schema: raw
+    tables:
+      - name: transactions
+        description: "Raw retail transactions loaded from S3 via Snowflake stage"
+        columns:
+          - name: transaction_id
+            description: "Unique transaction identifier"
+          - name: date
+            description: "Transaction date"
+          - name: shop_id
+            description: "Shop identifier"
+          - name: shop_name
+            description: "Full shop name"
+          - name: product_name
+            description: "Product sold"
+          - name: total_amount
+            description: "Total transaction value in AUD"
