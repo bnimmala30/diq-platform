@@ -1,0 +1,104 @@
+DataIQ360 AI Insights
+Generated: 25 March 2026 07:38
+============================================================
+
+# DataIQ360 Business Analysis Report
+
+---
+
+## 1. EXECUTIVE SUMMARY
+
+Your five-shop retail network generated **$2.22 million in total revenue** across 12,482 transactions. There's a massive performance gap here – Perth Home Living alone accounts for nearly half your entire revenue (48.71%), while Sydney Fresh Groceries brings in just 2.55%. The good news? You've got a loyal customer base averaging about 496 unique customers per shop, and your weekend trading is strong. The challenge is getting your lower-performing shops to punch above their weight.
+
+---
+
+## 2. TOP PERFORMER ANALYSIS
+
+### 🏆 Winner: Perth Home Living (Perth)
+
+This shop is your absolute powerhouse, and here's why:
+
+- **$1.08 million in revenue** – nearly double the next best performer
+- **Average transaction value of $425.72** – that's almost double Melbourne Fashion Hub ($216.83) and more than 18 times Sydney Fresh Groceries ($23.49)
+- **Revenue per customer of $2,179.99** – customers here spend big and come back for more
+- **90.6% of transactions are high-value** – you're attracting serious buyers, not browsers
+- **Zero low-value transactions** – remarkable for any retail business
+
+**Why is Perth winning?** It's all about the product mix. Furniture carries high margins and high ticket prices. Your Coffee Table alone generated $361,693 at an average sale of $685 per unit. When someone buys a coffee table, they often add an office chair ($290,760 revenue) or bookshelf ($195,775). You've created a natural upselling environment.
+
+The weekday/weekend split is also healthy – $721,515 on weekdays versus $361,940 on weekends – suggesting you're capturing both home shoppers and business buyers (think office furniture).
+
+---
+
+## 3. IMPROVEMENT OPPORTUNITIES
+
+### 🔧 Needs Urgent Attention: Sydney Fresh Groceries
+
+Let's be honest – this shop is struggling. Here are the numbers:
+
+- **$56,626 total revenue** – just 2.55% of your network's takings
+- **Average transaction of only $23.49** – people are buying one or two items and leaving
+- **Revenue per customer of $114.17** – compared to $2,179.99 at Perth
+- **61% of transactions are low-value** – you're getting traffic but not basket size
+- **Zero high-value transactions** – not a single transaction hit your "high value" threshold
+
+**Specific suggestions to turn this around:**
+
+1. **Bundle your top sellers** – Coffee Beans ($24,363 revenue, 43% of shop) + Olive Oil ($16,079, 28.4%) together at a slight discount. A "Mediterranean Breakfast Bundle" for $75 instead of selling separately.
+
+2. **Introduce premium product lines** – Your Coffee Beans average $46 per sale, which suggests you're already attracting customers who appreciate quality. Add premium grocery items (specialty cheeses, cured meats, artisan breads) to lift that average transaction.
+
+3. **Create a "weekly shop" loyalty incentive** – If someone spends over $80, give them 10% off their next visit. You need to break the habit of people just popping in for eggs.
+
+4. **Reconsider your product range** – Free Range Eggs average just $15.50 per sale and only bring in $7,004. Consider whether eggs are even worth your shelf space, or if you should focus on higher-margin specialty items.
+
+### 🔧 Also Needs Help: Brisbane Electronics Plus
+
+- **$237,651 revenue** – respectable, but your average transaction of $94.61 is low for electronics
+- **Only 31.8% high-value transactions** – you're selling too many phone cases ($30,818 at $64.88 average) and not enough premium items
+- **Bluetooth Speakers are your hero product** ($95,884, 40% of revenue) – lean into this harder
+
+**Suggestions:**
+- Create accessory bundles with every speaker sale (carrying case, cable kit)
+- Train staff to upsell from Power Banks to Bluetooth Speakers
+- Consider adding one or two higher-ticket items (tablets, smart home devices)
+
+---
+
+## 4. PRODUCT INSIGHTS
+
+### 🌟 Best Performing Products
+
+| Rank | Product | Shop | Revenue | Why It Works |
+|------|---------|------|---------|--------------|
+| 1 | Coffee Table | Perth | $361,693 | High ticket ($685 avg), essential home item |
+| 2 | Office Chair | Perth | $290,760 | Work-from-home boom, repeat business buyers |
+| 3 | Bookshelf | Perth | $195,775 | Complements other furniture purchases |
+| 4 | Winter Jacket | Melbourne | $172,415 | Seasonal necessity, $350 average sale |
+| 5 | Running Shoes | Adelaide | $140,367 | Health-conscious market, $251 average |
+
+**Key insight:** Your top 5 products are all items people *need* and are willing to invest in. They're not impulse buys – they're considered purchases.
+
+### ⚠️ Underperforming Products
+
+| Product | Shop | Revenue | Issue |
+|---------|------|---------|-------|
+| Free Range Eggs | Sydney | $7,004 | Only $15.50 per sale – taking up space |
+| Phone Case | Brisbane | $30,818 | Low margin ($64.88 avg), commoditised item |
+| Gym Gloves | Adelaide | $40,107 | Lowest performer in a strong sports shop |
+
+**Product recommendation:** For Brisbane, consider phasing out cheap phone cases and replacing with premium protective cases ($80-150 range). You'll sell fewer units but make more per sale.
+
+---
+
+## 5. TIMING INSIGHTS
+
+### 📅 Best Days to Trade
+
+| Day | Avg Daily Revenue | Transactions |
+|-----|------------------|--------------|
+| **Saturday** | **$1,493.47** | 2,242 |
+| **Sunday** | **$1,356.30** | 2,038 |
+| Wednesday | $1,230.19 | 1,730 |
+| Friday | $1,144.86 | 1,581 |
+| Tuesday | $1,127.69 | 1,685
