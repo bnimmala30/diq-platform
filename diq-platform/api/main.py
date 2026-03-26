@@ -226,3 +226,10 @@ def get_summary():
         "success": True,
         "summary": data[0]
     }
+
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
+
+@app.get("/dashboard")
+def get_dashboard():
+    return FileResponse("index.html")
